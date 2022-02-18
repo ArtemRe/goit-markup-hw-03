@@ -16,6 +16,12 @@ body {
   color: var(--paragraf-colore);
   font-family: roboto, sans-serif;
 }
+.header-container {
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
 .footer {
   background-color: var(--footer-black);
 }
@@ -25,12 +31,17 @@ body {
 h1,
 h3 {
   color: var(--tittle-colore);
+  margin: 0;
 }
 
 ul,
-li {
+li,
+p {
   list-style: none;
+  margin: 0;
+  padding-left: 0;
 }
+
 .logo {
   color: var(--tittle-colore);
   font-family: raleway;
@@ -52,21 +63,42 @@ li {
 .link.current {
   color: var(--main-blue);
 }
-
+.site-nav {
+  display: flex;
+  margin-left: 93px;
+  min-width: 294px;
+}
 .site-nav a {
   color: var(--tittle-colore);
   /* font-family: Roboto, sans-serif; */
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+
+  display: flex;
 }
 .site-nav :hover,
 .site-nav :focus {
   color: var(--main-blue);
 }
+.nav-item {
+  display: flex;
+  margin-right: 50px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.nav-item:last-child {
+  margin-right: 0;
+}
+.contakts {
+  display: flex;
+  margin-left: 331px;
+}
 .contakts a {
   color: var(--paragraf-colore);
   font-weight: 500;
+  letter-spacing: 0.02em;
+
   /* font-family: Roboto; */
 
   font-size: 14px;
@@ -75,6 +107,11 @@ li {
 .contakts :focus,
 .contakts :hover {
   color: #2196f3;
+}
+.contacts-mail {
+  margin-right: 50px;
+}
+.contacts-tel {
 }
 .title-hero {
   color: var(--main-bacgraund);
@@ -207,4 +244,10 @@ li {
 }
 .adres {
   font-style: normal;
+}
+.container {
+  width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 }
