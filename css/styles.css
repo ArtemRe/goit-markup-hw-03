@@ -9,6 +9,7 @@
   --footer-black: #2f303a;
   /* fonts */
   /* Roboto 500,900,700,400 Weight  */
+  /* outline: 1px solid tomato; */
 }
 
 body {
@@ -21,6 +22,7 @@ body {
   align-items: center;
   margin-top: 25px;
   margin-bottom: 25px;
+  outline: 1px solid tomato;
 }
 .footer {
   background-color: var(--footer-black);
@@ -49,9 +51,9 @@ p {
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
-
   font-weight: bold;
   font-size: 26px;
+  margin-right: 93px;
 }
 .span {
   color: #2196f3;
@@ -84,15 +86,19 @@ p {
 .nav-item {
   display: flex;
   margin-right: 50px;
-  margin-top: 32px;
-  margin-bottom: 32px;
+  /* margin-top: 32px;
+  margin-bottom: 32px; */
+  outline: 1px solid tomato;
+}
+.nav-item a {
+  font-weight: 500;
 }
 .nav-item:last-child {
   margin-right: 0;
 }
 .contakts {
   display: flex;
-  margin-left: 331px;
+  margin-left: auto;
 }
 .contakts a {
   color: var(--paragraf-colore);
@@ -246,7 +252,7 @@ p {
   font-style: normal;
 }
 .container {
-  width: 1170px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
