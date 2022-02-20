@@ -178,6 +178,9 @@ p {
   display: flex;
   margin-left: auto;
 }
+.contakts :last-child {
+  margin-right: 0;
+}
 .contakts a {
   color: var(--paragraf-colore);
   font-weight: 500;
