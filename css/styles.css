@@ -97,6 +97,7 @@ p {
 }
 .sp-title {
   margin-right: 30px;
+  width: 270px;
 }
 .sp-title:last-child {
   margin-right: 0;
@@ -166,12 +167,14 @@ p {
   /* margin-top: 32px;
   margin-bottom: 32px; */
 }
-.nav-item a {
+.nav-items a {
   font-weight: 500;
   padding-top: 32px;
   padding-bottom: 32px;
+  margin-right: 50px;
+  display: block;
 }
-.nav-item:last-child {
+.nav-items:last-child {
   margin-right: 0;
 }
 .contakts {
@@ -200,8 +203,13 @@ p {
 
 .contacts-tel {
 }
-.mail-contakts {
+.mail-contakts:nth-last-child(-n + 2) {
   margin-right: 50px;
+}
+.mail-contakts a {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  display: block;
 }
 
 .title-main {
