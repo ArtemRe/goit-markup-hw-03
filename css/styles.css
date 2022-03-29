@@ -165,26 +165,28 @@ p {
 }
 .nav-item {
   display: flex;
-  margin-right: 50px;
+  /* margin-right: 50px; */
 
   /* margin-top: 32px;
   margin-bottom: 32px; */
 }
+/* .nav-item :nth-last-child(n + 3) {
+  margin-right: 0;
+} */
 .nav-items a {
   font-weight: 500;
   padding-top: 32px;
   padding-bottom: 32px;
-  margin-right: 50px;
   display: block;
 }
-.nav-items:last-child {
-  margin-right: 0;
+.nav-item :not(:last-child) {
+  margin-right: 50px;
 }
 .contakts {
   display: flex;
   margin-left: auto;
 }
-.contakts :last-child {
+.contakts :nth-last-child(-n + 1) {
   margin-right: 0;
 }
 .contakts a {
@@ -206,7 +208,7 @@ p {
 
 .contacts-tel {
 }
-.mail-contakts:nth-child(-n + 2) {
+.mail-contakts:not(:last-child) {
   margin-right: 50px;
 }
 
